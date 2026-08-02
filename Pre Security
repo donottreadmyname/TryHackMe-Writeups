@@ -1,8 +1,38 @@
-TryHackMe-Writeups/
-├── 01-Introduction-to-Cyber-Security/
-├── 02-Computer-Fundamentals/
-├── 03-Operating-Systems-Basics/
-├── 04-Software-Basics/
-├── 05-Network-Fundamentals/
-├── 06-How-The-Web-Works/
-└── 07-Attacks-and-Defenses/
+# TryHackMe Pre Security - Learning Notes
+
+> My learning notes from TryHackMe Pre Security path (19h). No flags, no answers - only what I learned, commands used, and IoT links.
+
+**Profile:** https://tryhackme.com/p/NgocDang
+**Status:** 7/7 Modules Completed ✅
+**Goal:** Build foundation for IoT / Product Security Intern
+
+### 📚 Modules
+
+| # | Module | Status | Key Learnings |
+|---|--------|--------|---------------|
+| 01 | [Introduction to Cyber Security](./01-Introduction-to-Cyber-Security/) | ✅ | Offensive vs Defensive, SOC, SIEM, Careers |
+| 02 | [Computer Fundamentals](./02-Computer-Fundamentals/) | ✅ | CPU/RAM, Client-Server, Virtualisation, Cloud |
+| 03 | [Operating Systems Basics](./03-Operating-Systems-Basics/) | ✅ | Windows/Linux CLI, SSH, Permissions |
+| 04 | [Software Basics](./04-Software-Basics/) | ✅ | Binary, ASCII/UTF-8, Python, JS, SQL |
+| 05 | [Network Fundamentals](./05-Network-Fundamentals/) | ✅ | OSI 7 layers, Packets/Frames, NAT, VPN |
+| 06 | [How The Web Works](./06-How-The-Web-Works/) | ✅ | DNS, HTTP, Web Server flow |
+| 07 | [Attacks and Defenses](./07-Attacks-and-Defenses/) | ✅ | CIA Triad, Crypto, Hacker vs Defender mindset |
+
+### 🛠️ How I Write
+- **No flags / No direct answers** - To respect TryHackMe policy
+- **Format:** What I learned + Commands + Where I got stuck + IoT link
+- **Purpose:** Portfolio for Year 2 Intern + Personal revision
+
+### 🔗 IoT Security Link
+Every module I link to my future ESP32 project:
+- Computer Fundamentals -> ESP32 is a tiny computer
+- Network Fundamentals -> MQTT needs IP/Port Forwarding
+- How The Web Works -> IoT Dashboard is a web app
+- Attacks and Defenses -> CIA for IoT: Encrypt MQTT (C), Checksum (I), Offline mode (A)
+
+### 📈 Progress
+- Pre Security: 100% (7/7)
+- Next: Cyber Security 101
+
+---
+*Learning in public from dormitory - Updated: May 2026*
