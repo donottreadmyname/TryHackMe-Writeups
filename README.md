@@ -1,15 +1,34 @@
 # TryHackMe Writeups - Learning in Public
 
-My daily notes from TryHackMe. No flags, only what I learned.
-This repository contains all my public writeups for TryHackMe. I try to keep all writeups well formatted and detailed.
+> Documenting my journey from zero to IoT Security Intern. No flags, no answers.
 
-### Rules
-- No flags / No direct answers
-- Only: What I learned, commands used, where I got stuck
+**Profile:** https://tryhackme.com/p/NgocDang
+**Focus:** IoT Security (Hardware + Software)
 
-### Progress
-- Pre Security: 80%
-- Cyber Security 101: 40%
+### 🗺️ My Learning Paths
 
-### Structure
-/Pre-Security/What-is-Networking.md
+#### ✅ Pre Security - Completed (7/7 modules)
+This path teaches you how technology works from the ground up, no prior experience needed.
+
+- **What I did:** Learned computer basics, OS, network, web, security mindset
+- **Time:** ~19h
+- **Status:** Done - notes in `/Pre-Security/`
+
+#### 🚧 Cyber Security 101 - In Progress (5%)
+The Cyber Security 101 path provides a structured introduction to both offensive and defensive aspects of cybersecurity.
+
+- **What it is:** The Cyber Security 101 learning path consisted of 14 modules and 56 hands-on labs or rooms.
+- **What I'm doing now:** Linux Fundamentals, Windows & AD Fundamentals
+- **Status:** Just started - notes in `/Cyber-Security-101/`
+
+#### 📅 Next
+- SOC Level 1
+- Fortinet FCF
+
+### ✍️ How I document
+- No flags / No walkthrough answers
+- Only: Where I am + What I'm focusing on + What I struggled with
+- Purpose: For portfolio + for myself to track
+
+---
+*Year 2 Cybersecurity Student - Learning from dormitory - Updated: May 2026*
