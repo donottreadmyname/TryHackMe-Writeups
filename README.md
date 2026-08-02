@@ -11,7 +11,6 @@
 This path teaches you how technology works from the ground up, no prior experience needed.
 
 - **What I did:** Learned computer basics, OS, network, web, security mindset
-- **Time:** ~19h
 - **Status:** Done - notes in `/Pre-Security/`
 
 #### 🚧 Cyber Security 101 - In Progress (5%)
