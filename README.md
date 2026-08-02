@@ -30,4 +30,4 @@ The Cyber Security 101 path provides a structured introduction to both offensive
 - Purpose: For portfolio + for myself to track
 
 ---
-*Year 2 Cybersecurity Student - Learning from dormitory - Updated: May 2026*
+*Year 2 Cybersecurity Student - Updated: May 2026*
