@@ -30,6 +30,99 @@ Every module I link to my future ESP32 project:
 - How The Web Works -> IoT Dashboard is a web app
 - Attacks and Defenses -> CIA for IoT: Encrypt MQTT (C), Checksum (I), Offline mode (A)
 
+# 01 - Introduction to Cyber Security
+
+**Status:** ✅ Completed
+**Rooms:** Offensive Security Intro, Defensive Security Intro, Careers in Cyber
+
+**What I learned:**
+- Offensive Security: Thinking like an attacker to find weaknesses before real hackers do. Hacked my first website legally in a safe environment (vulnerable banking app).
+- Defensive Security: Preventing intrusions and detecting/responding. Topics: Threat Intelligence, SOC, DFIR, Malware Analysis, SIEM.
+- Careers: Pentester, Red Teamer, Security Engineer, SOC Analyst.
+
+**My takeaway:** I fit IoT / Product Security - mix of offensive + defensive. Entry point: SOC Analyst.
+
+**IoT link:** Offensive mindset helps me hack my own ESP32, defensive helps me fix it.
+# 02 - Computer Fundamentals
+
+**Status:** ✅ Completed
+**Rooms:** Inside a Computer System, Computer Types, Client-Server Basics, Virtualisation Basics, Cloud Computing Fundamentals
+
+**What I learned:**
+- Inside a Computer System: CPU, RAM, Motherboard, SATA, PSU. ESP32 is a tiny computer with CPU + RAM + Flash.
+- Computer Types: Desktop, Laptop, Server, Embedded (ESP32, Arduino), IoT devices.
+- Client-Server Basics: Client requests, Server responds. ESP32 = Client, MQTT Broker = Server.
+- Virtualisation Basics: Hypervisor allows running multiple VMs on one machine, isolating lab environments.
+- Cloud Computing Fundamentals: Cloud is built on virtualization + containers. Models: IaaS, PaaS, SaaS. IoT data often goes to AWS IoT.
+
+**Key:** Building blocks -> Types -> How they talk -> Virtualisation -> Cloud. Foundation for IoT Security.
+
+# 03 - Operating Systems Basics
+
+**Status:** ✅ Completed
+**Rooms:** OS Introduction, Windows Basics, Linux CLI Basics, Windows CLI Basics, OS Security
+
+**What I learned:**
+- OS Introduction: Kernel, process management, file system, user vs kernel mode.
+- Windows Basics: Desktop, Taskbar, File Explorer, Task Manager, user permissions.
+- Linux CLI Basics: ls, cd, pwd, cat, grep, chmod, chown, find, whoami. Did tasks as a new intern in SOC team.
+- Windows CLI Basics: dir, cd, type, ipconfig, netstat, tasklist. CMD vs PowerShell vs Bash.
+- OS Security: User management, rwx permissions, SSH keys vs password, sudo. SSH is the secure way to access Raspberry Pi / IoT gateway.
+
+**IoT link:** Need Linux terminal to flash ESP32 and SSH into gateway.
+
+# 04 - Software Basics
+
+**Status:** ✅ Completed
+**Rooms:** Data Representation, Data Encoding, Python: Simple Demo, JavaScript: Simple Demo, Database SQL Basics
+
+**What I learned:**
+- Data Representation: Computers store numbers in binary, colors in RGB.
+- Data Encoding: ASCII = 128 chars, UTF-8 supports emoji and Vietnamese. Why IoT Vietnamese text often breaks.
+- Python Demo: variables, if/else, loops, input(). Built Guess the Number game.
+- JavaScript Demo: variables, DOM. Used for ESP32 dashboard.
+- SQL Basics: SELECT, WHERE, INSERT, UPDATE. Sensor data from ESP32 often stored in SQL.
+
+**Key:** Software = how to store data + how to process data. Foundation for security tools.
+
+# 05 - Network Fundamentals
+
+**Status:** ✅ Completed
+**Rooms:** What is Networking?, Intro to LAN, OSI Model, Packets & Frames, Extending Your Network
+
+**What I learned:**
+- What is Networking + Intro to LAN: IP, subnet /24, MAC, LAN vs WAN, Switch vs Router.
+- OSI Model: 7 layers Physical -> Application. Standard model to debug networking.
+- Packets & Frames: Frame at Layer 2, Packet at Layer 3. Both visible in Wireshark.
+- Extending Your Network: NAT, Port Forwarding, Firewall, VPN. Routers work at Layer 3 to find optimal path.
+
+**IoT link:** Most important module for IoT. ESP32 needs IP, port forwarding, firewall to reach internet.
+
+# 06 - How The Web Works
+
+**Status:** ✅ Completed
+**Rooms:** DNS in Detail, HTTP in Detail, How Websites Work, Putting it all together
+
+**What I learned:**
+- DNS in Detail: DNS converts domain to IP. Records: A, CNAME, MX, TXT. Tools: dig, nslookup.
+- HTTP in Detail: Methods GET/POST/PUT/DELETE, status codes 200/301/404/500, headers, cookies.
+- How Websites Work: Web Server, Virtual Hosts, Static vs Dynamic Content, Backend languages.
+- Putting it all together: Flow Browser -> DNS -> HTTP Request -> Web Server -> Response.
+
+**IoT link:** IoT dashboard is a web app. Need DNS + HTTP to hack/fix ESP32 dashboard.
+
+# 07 - Attacks and Defenses
+
+**Status:** ✅ Completed
+**Rooms:** The CIA Triad, Cryptography Concepts, Become a Hacker, Become a Defender
+
+**What I learned:**
+- CIA Triad: Confidentiality, Integrity, Availability. Security mindset. For IoT: C=encrypt MQTT, I=checksum data, A=offline mode.
+- Cryptography Concepts: Symmetric vs Asymmetric, Hashing, Caesar cipher. Why TLS is mandatory for MQTT.
+- Become a Hacker: Offensive mindset, hacking web app legally in safe environment.
+- Become a Defender: Blue Team must understand attacker mindset, targets, and attack flow. SOC, SIEM, Incident Response.
+
+**Key:** Security = CIA. To defend IoT, must understand both attack and defense.
 ### 📈 Progress
 - Pre Security: 100% (7/7)
 - Next: Cyber Security 101
