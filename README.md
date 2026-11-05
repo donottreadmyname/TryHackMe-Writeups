@@ -1,33 +1,23 @@
-# TryHackMe Writeups - Learning in Public
+# TryHackMe Write-ups — Learning in Public
 
-> Documenting my journey from zero to IoT Security Intern. No flags, no answers.
+> My notes from TryHackMe learning paths. No flags and no answers: only what I learned, the commands I used and where I got stuck.
 
-**Profile:** https://tryhackme.com/p/NgocDang
-**Focus:** IoT Security (Hardware + Software)
+**Profile:** [tryhackme.com/p/NgocDang](https://tryhackme.com/p/NgocDang)
+**Focus:** SOC and digital forensics, with IoT security on the side
 
-### 🗺️ My Learning Paths
+## Learning paths
 
-#### ✅ Pre Security - Completed (7/7 modules)
-This path teaches you how technology works from the ground up, no prior experience needed.
+| Path | Status | Notes |
+|---|---|---|
+| Pre Security | ✅ Completed (7/7 modules) | [Pre-Security.md](./Pre-Security.md) |
+| Cyber Security 101 | ✅ Completed | coming soon |
+| SOC Level 1 | 🚧 In progress, preparing for SAL1 | coming soon |
 
-- **What I did:** Learned computer basics, OS, network, web, security mindset
-- **Status:** Done - notes in `/Pre-Security/`
+## How I document
 
-#### 🚧 Cyber Security 101 - In Progress (5%)
-The Cyber Security 101 path provides a structured introduction to both offensive and defensive aspects of cybersecurity.
-
-- **What it is:** The Cyber Security 101 learning path consisted of 14 modules and 56 hands-on labs or rooms.
-- **What I'm doing now:** Linux Fundamentals, Windows & AD Fundamentals
-- **Status:** Just started - notes in `/Cyber-Security-101/`
-
-#### 📅 Next
-- SOC Level 1
-- Fortinet FCF
-
-### ✍️ How I document
-- No flags / No walkthrough answers
-- Only: Where I am + What I'm focusing on + What I struggled with
-- Purpose: For portfolio + for myself to track
+- No flags and no walkthrough answers, to respect TryHackMe's rules
+- For each module: what I learned, commands I used, where I got stuck
+- Purpose: revision for me, and a record of my progress
 
 ---
-*Year 2 Cybersecurity Student - Updated: May 2026*
+*Updated: Nov 2026*

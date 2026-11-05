@@ -4,19 +4,19 @@
 
 **Profile:** https://tryhackme.com/p/NgocDang
 **Status:** 7/7 Modules Completed ✅
-**Goal:** Build foundation for IoT / Product Security Intern
+**Goal:** Build the foundation for SOC, digital forensics and IoT security
 
 ### 📚 Modules
 
 | # | Module | Status | Key Learnings |
 |---|--------|--------|---------------|
-| 01 | [Introduction to Cyber Security](./01-Introduction-to-Cyber-Security/) | ✅ | Offensive vs Defensive, SOC, SIEM, Careers |
-| 02 | [Computer Fundamentals](./02-Computer-Fundamentals/) | ✅ | CPU/RAM, Client-Server, Virtualisation, Cloud |
-| 03 | [Operating Systems Basics](./03-Operating-Systems-Basics/) | ✅ | Windows/Linux CLI, SSH, Permissions |
-| 04 | [Software Basics](./04-Software-Basics/) | ✅ | Binary, ASCII/UTF-8, Python, JS, SQL |
-| 05 | [Network Fundamentals](./05-Network-Fundamentals/) | ✅ | OSI 7 layers, Packets/Frames, NAT, VPN |
-| 06 | [How The Web Works](./06-How-The-Web-Works/) | ✅ | DNS, HTTP, Web Server flow |
-| 07 | [Attacks and Defenses](./07-Attacks-and-Defenses/) | ✅ | CIA Triad, Crypto, Hacker vs Defender mindset |
+| 01 | [Introduction to Cyber Security](#01---introduction-to-cyber-security) | ✅ | Offensive vs Defensive, SOC, SIEM, Careers |
+| 02 | [Computer Fundamentals](#02---computer-fundamentals) | ✅ | CPU/RAM, Client-Server, Virtualisation, Cloud |
+| 03 | [Operating Systems Basics](#03---operating-systems-basics) | ✅ | Windows/Linux CLI, SSH, Permissions |
+| 04 | [Software Basics](#04---software-basics) | ✅ | Binary, ASCII/UTF-8, Python, JS, SQL |
+| 05 | [Network Fundamentals](#05---network-fundamentals) | ✅ | OSI 7 layers, Packets/Frames, NAT, VPN |
+| 06 | [How The Web Works](#06---how-the-web-works) | ✅ | DNS, HTTP, Web Server flow |
+| 07 | [Attacks and Defenses](#07---attacks-and-defenses) | ✅ | CIA Triad, Crypto, Hacker vs Defender mindset |
 
 ### 🛠️ How I Write
 - **No flags / No direct answers** - To respect TryHackMe policy
@@ -30,7 +30,7 @@ Every module I link to my future ESP32 project:
 - How The Web Works -> IoT Dashboard is a web app
 - Attacks and Defenses -> CIA for IoT: Encrypt MQTT (C), Checksum (I), Offline mode (A)
 
-# 01 - Introduction to Cyber Security
+## 01 - Introduction to Cyber Security
 
 **Status:** ✅ Completed
 **Rooms:** Offensive Security Intro, Defensive Security Intro, Careers in Cyber
@@ -44,7 +44,7 @@ Every module I link to my future ESP32 project:
 
 **IoT link:** Offensive mindset helps me hack my own ESP32, defensive helps me fix it.
 
-# 02 - Computer Fundamentals
+## 02 - Computer Fundamentals
 
 **Status:** ✅ Completed
 **Rooms:** Inside a Computer System, Computer Types, Client-Server Basics, Virtualisation Basics, Cloud Computing Fundamentals
@@ -58,7 +58,7 @@ Every module I link to my future ESP32 project:
 
 **Key:** Building blocks -> Types -> How they talk -> Virtualisation -> Cloud. Foundation for IoT Security.
 
-# 03 - Operating Systems Basics
+## 03 - Operating Systems Basics
 
 **Status:** ✅ Completed
 **Rooms:** OS Introduction, Windows Basics, Linux CLI Basics, Windows CLI Basics, OS Security
@@ -72,7 +72,7 @@ Every module I link to my future ESP32 project:
 
 **IoT link:** Need Linux terminal to flash ESP32 and SSH into gateway.
 
-# 04 - Software Basics
+## 04 - Software Basics
 
 **Status:** ✅ Completed
 **Rooms:** Data Representation, Data Encoding, Python: Simple Demo, JavaScript: Simple Demo, Database SQL Basics
@@ -86,7 +86,7 @@ Every module I link to my future ESP32 project:
 
 **Key:** Software = how to store data + how to process data. Foundation for security tools.
 
-# 05 - Network Fundamentals
+## 05 - Network Fundamentals
 
 **Status:** ✅ Completed
 **Rooms:** What is Networking?, Intro to LAN, OSI Model, Packets & Frames, Extending Your Network
@@ -99,7 +99,7 @@ Every module I link to my future ESP32 project:
 
 **IoT link:** Most important module for IoT. ESP32 needs IP, port forwarding, firewall to reach internet.
 
-# 06 - How The Web Works
+## 06 - How The Web Works
 
 **Status:** ✅ Completed
 **Rooms:** DNS in Detail, HTTP in Detail, How Websites Work, Putting it all together
@@ -112,7 +112,7 @@ Every module I link to my future ESP32 project:
 
 **IoT link:** IoT dashboard is a web app. Need DNS + HTTP to hack/fix ESP32 dashboard.
 
-# 07 - Attacks and Defenses
+## 07 - Attacks and Defenses
 
 **Status:** ✅ Completed
 **Rooms:** The CIA Triad, Cryptography Concepts, Become a Hacker, Become a Defender
@@ -124,9 +124,10 @@ Every module I link to my future ESP32 project:
 - Become a Defender: Blue Team must understand attacker mindset, targets, and attack flow. SOC, SIEM, Incident Response.
 
 **Key:** Security = CIA. To defend IoT, must understand both attack and defense.
-### 📈 Progress
+
+## 📈 Progress
 - Pre Security: 100% (7/7)
-- Next: Cyber Security 101
+- Next: Cyber Security 101 (completed, notes coming)
 
 ---
- - Updated: May 2026*
+*Updated: Nov 2026*
